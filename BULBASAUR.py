@@ -71,6 +71,6 @@ while True:
         print("Population max reached")
 
         break
-    elif not any(eggs):
+    elif not any(eggs) or not FemalePop:
         print("Extinction")
         break
